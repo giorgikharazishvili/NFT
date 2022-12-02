@@ -35,7 +35,7 @@ body {
 }
 
 /* Create hover for Equilibrium */
-.div-image:hover > .eye {
+.div-image:hover>.eye {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -178,9 +178,42 @@ body {
 
 /* Responsive Design */
 
-@media screen and (max-width:475px) and (max-height:670px) {
+@media screen and (max-width:375px) and (max-height:667px) { 
+
+    body {
+        overflow-y: hidden;
+        overflow-x: hidden;
+    }
+
     .div-main {
-        width: 20.5rem;
-        height: 40rem;
+        position: absolute;
+        background-image: linear-gradient(to bottom right, #163b76, #0D192C, #010814);
+        height: 543px;
+        width: 327px;
+        border-radius: 10px;
+    }
+
+    .div-image {
+        width: 17.4rem;
+        height: 17.4rem;
+    }
+
+    .div-title {
+        position: absolute;
+        top: 19rem;
+        width: 17.37rem;
+        height: 1.75rem;
+    }
+
+    .div-description {
+        position: absolute;
+        top: 22.5rem;
+        width: 17.37rem;
+        height: 3.25rem;
+    }
+
+    .div-ETH-clock {
+        width: 17.37rem;
+        right: 1.5rem;
     }
 }
