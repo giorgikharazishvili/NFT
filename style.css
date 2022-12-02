@@ -41,8 +41,14 @@ body {
     justify-content: center;
     position: absolute;
     background-color: cyan;
-    opacity: 0.5;
+    opacity: 0.6;
     border-radius: 10px;
+}
+
+.div-image:hover>.eyeImage {
+    width: 100px;
+    opacity: 1;
+    color: rgb(0, 102, 255);
 }
 
 .div-image img {
