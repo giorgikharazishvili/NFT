@@ -15,7 +15,7 @@ body {
     width: 22rem;
     height: 37.3rem;
     border-radius: 1rem;
-    box-shadow: 1px 25px 50px rgba(255, 0, 0, 0.095);
+    box-shadow: 1px 1px 40px rgb(0, 0, 0);
 }
 
 .div-image {
@@ -174,4 +174,13 @@ body {
 #creator:hover {
     color: cyan;
     cursor: crosshair;
+}
+
+/* Responsive Design */
+
+@media screen and (max-width:475px) and (max-height:670px) {
+    .div-main {
+        width: 20.5rem;
+        height: 40rem;
+    }
 }
