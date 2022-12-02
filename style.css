@@ -1,0 +1,177 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    background: #0D192C;
+}
+
+.div-main {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    background-color: #15263F;
+    width: 22rem;
+    height: 37.3rem;
+    border-radius: 1rem;
+    box-shadow: 1px 25px 50px rgba(255, 0, 0, 0.095);
+}
+
+.div-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 18.9rem;
+    height: 18.9rem;
+    top: 1.5rem;
+}
+
+.eye {
+    display: none;
+    width: 18.9rem;
+    height: 18.9rem;
+}
+
+/* Create hover for Equilibrium */
+.div-image:hover > .eye {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    background-color: cyan;
+    opacity: 0.5;
+    border-radius: 10px;
+}
+
+.div-image img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 0.5rem;
+}
+
+.div-title {
+    position: absolute;
+    width: 18.9rem;
+    height: 1.8rem;
+    bottom: 14.5rem;
+    color: rgb(249, 238, 222);
+}
+
+.div-title:hover {
+    color: cyan;
+    cursor: pointer;
+}
+
+.div-description {
+    position: absolute;
+    width: 18.9rem;
+    height: 3.25rem;
+    color: #8BACD9;
+    bottom: 9.31rem;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.div-ETH-clock {
+    position: absolute;
+    display: inline;
+    width: 18.9rem;
+    height: 1.25rem;
+    bottom: 6.6rem;
+}
+
+/* ETH Div Symbol and quantity */
+.div-ETH {
+    position: absolute;
+    height: 1.25rem;
+    width: 5.84rem;
+    color: cyan;
+    text-align: right;
+}
+
+.div-ETH>img {
+    position: absolute;
+    left: 0px;
+}
+
+.div-ETH>p {
+    display: inline;
+    height: 1.25rem;
+    font-family: Outfit;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+/* Clock and Date DIV  */
+.div-clock-date {
+    position: absolute;
+    right: 0px;
+    height: 1.25rem;
+    width: 5.84rem;
+    text-align: right;
+}
+
+.div-clock-date>img {
+    position: absolute;
+    left: 0px;
+}
+
+.div-clock-date>p {
+    display: inline;
+    color: #8BACD9;
+    font-size: 1rem;
+}
+
+/* DIve line */
+.div-line {
+    position: absolute;
+    width: 18.9rem;
+    height: 1px;
+    background-color: #2E405A;
+    bottom: 5.1rem;
+}
+
+/* Person DIV */
+.div-person {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    left: 1.5rem;
+    bottom: 2rem;
+    height: 2.1rem;
+    width: 14.4rem;
+    text-align: right;
+}
+
+.div-person>img {
+    position: absolute;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+}
+
+.div-person>p {
+    display: inline;
+    position: absolute;
+    right: 0px;
+}
+
+#creation {
+    font-family: Outfit;
+    font-size: 16px;
+    color: #8BACD9;
+    italic: active;
+}
+
+#creator {
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+}
+
+#creator:hover {
+    color: cyan;
+    cursor: crosshair;
+}
